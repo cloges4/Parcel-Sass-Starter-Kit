@@ -1,0 +1,26 @@
+{
+  "name": "parcel-sass-js-project-starter",
+  "version": "1.0.0",
+  "description": "Basic Javascript and sass workflow using parcel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run clean && parcel public/index.html --out-dir dev -p 3000",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./",
+    "clean": "rimraf ./dev && rimraf -rf ./.cache"
+  },
+  "keywords": [
+    "parcel",
+    "sass",
+    "javascript"
+  ],
+  "author": "Charles Loges IV",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/runtime-corejs2": "^7.10.2",
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2",
+    "sass": "^1.26.8"
+  }
+}
