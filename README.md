@@ -16,7 +16,7 @@ None
 - From the project root directory
 
 ```
-npm init
+npm install
 ```
 
 ## Running the tests
@@ -24,7 +24,7 @@ npm init
 In the Project directory run
 
 ```
-npm run build
+npm run dev
 ```
 
 - Then open browser to **localhost 3000**
