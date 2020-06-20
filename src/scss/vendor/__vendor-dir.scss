@@ -1,0 +1,9 @@
+/*
+This file is used to contain all vendor imports.
+All 3rd-party vendor tools (frameworks, libraries, helpers) should be separated into folders
+Only the 3rd-party master file for each vendor tool should be imported
+Vendor tool version number should be included in an inline comment
+*/
+
+//Import Vendor files
+@import 'normalize'; //8.0.1
